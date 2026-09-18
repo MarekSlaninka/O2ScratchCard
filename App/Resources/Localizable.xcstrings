@@ -1,0 +1,438 @@
+{
+  "sourceLanguage" : "sk",
+  "strings" : {
+    "activation.action" : {
+      "comment" : "Activation button and navigation link.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktivovať kartu"
+          }
+        }
+      }
+    },
+    "activation.continues" : {
+      "comment" : "Explains that navigation does not cancel activation.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Po spustení môžete odísť z tejto obrazovky. Aktivácia bude pokračovať."
+          }
+        }
+      }
+    },
+    "activation.description" : {
+      "comment" : "Activation explanation.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktivujte kartu odoslaním odhaleného kódu."
+          }
+        }
+      }
+    },
+    "activation.errorTitle" : {
+      "comment" : "Activation failure alert title.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktivácia sa nepodarila"
+          }
+        }
+      }
+    },
+    "activation.headline" : {
+      "comment" : "Activation screen heading.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Už len jeden krok"
+          }
+        }
+      }
+    },
+    "activation.progress" : {
+      "comment" : "Shown while activation is running.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktivujeme vašu kartu…"
+          }
+        }
+      }
+    },
+    "activation.requiresScratch" : {
+      "comment" : "Explains why activation is unavailable.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Najprv sa vráťte a zotrite kartu, aby ste odhalili kód."
+          }
+        }
+      }
+    },
+    "activation.success" : {
+      "comment" : "Confirmation of successful activation.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hotovo! Vaša karta je aktivovaná."
+          }
+        }
+      }
+    },
+    "activation.title" : {
+      "comment" : "Activation screen navigation title.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktivácia karty"
+          }
+        }
+      }
+    },
+    "card.activated" : {
+      "comment" : "Card state after activation.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktivovaná"
+          }
+        }
+      }
+    },
+    "card.codeAccessibility" : {
+      "comment" : "VoiceOver description; parameter is the UUID code, never translated.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kód karty: %@"
+          }
+        }
+      }
+    },
+    "card.hiddenCode" : {
+      "comment" : "Placeholder for an unrevealed code.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kód čaká na odhalenie"
+          }
+        }
+      }
+    },
+    "card.scratched" : {
+      "comment" : "Card state after reveal, before activation.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zotretá"
+          }
+        }
+      }
+    },
+    "card.title" : {
+      "comment" : "Heading on the digital card.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vaša digitálna karta"
+          }
+        }
+      }
+    },
+    "card.unscratched" : {
+      "comment" : "Card state before reveal.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nezotretá"
+          }
+        }
+      }
+    },
+    "common.dismiss" : {
+      "comment" : "Dismiss an informational error alert.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rozumiem"
+          }
+        }
+      }
+    },
+    "error.alreadyActivated" : {
+      "comment" : "Repeated activation.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karta už bola aktivovaná."
+          }
+        }
+      }
+    },
+    "error.alreadyScratched" : {
+      "comment" : "Reveal attempted on a revealed card.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karta už bola zotretá. Jej kód zostáva rovnaký."
+          }
+        }
+      }
+    },
+    "error.codeMismatch" : {
+      "comment" : "Activation attempted with a code that differs from the revealed one.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kód nezodpovedá odhalenej karte. Skúste aktiváciu znova."
+          }
+        }
+      }
+    },
+    "error.httpStatus" : {
+      "comment" : "Unsuccessful HTTP response; %lld is the status code.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Server odpovedal chybou %lld. Skúste to znova."
+          }
+        }
+      }
+    },
+    "error.invalidResponse" : {
+      "comment" : "Malformed server response.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Server poslal neplatnú odpoveď. Skúste aktiváciu znova."
+          }
+        }
+      }
+    },
+    "error.network" : {
+      "comment" : "Connection failure.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nepodarilo sa spojiť so serverom. Skontrolujte pripojenie a skúste to znova."
+          }
+        }
+      }
+    },
+    "error.notScratched" : {
+      "comment" : "Activation requires a revealed code.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Najprv zotrite kartu a odhaľte jej kód."
+          }
+        }
+      }
+    },
+    "error.unsupportedVersion" : {
+      "comment" : "Server version did not satisfy activation requirements.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Server aktiváciu zamietol. Skúste to znova neskôr."
+          }
+        }
+      }
+    },
+    "home.activationRequiresScratch" : {
+      "comment" : "Explains on the home screen why activation is not yet available.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Najprv zotrite kartu, aby ste odhalili kód."
+          }
+        }
+      }
+    },
+    "home.description" : {
+      "comment" : "Home introduction body.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odhaľte svoj kód a aktivujte kartu v dvoch jednoduchých krokoch."
+          }
+        }
+      }
+    },
+    "home.headline" : {
+      "comment" : "Home introduction heading. Allow natural wrapping at larger text sizes.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Malá karta. Veľké možnosti."
+          }
+        }
+      }
+    },
+    "home.status" : {
+      "comment" : "Current card state; parameter is the localized state name.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktuálny stav: %@"
+          }
+        }
+      }
+    },
+    "scratch.action" : {
+      "comment" : "Button to reveal the card code; also navigation link.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zotrieť kartu"
+          }
+        }
+      }
+    },
+    "scratch.description" : {
+      "comment" : "Explains duration and cancellation when leaving.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zotretie trvá dve sekundy. Ak odídete skôr, karta zostane nezotretá."
+          }
+        }
+      }
+    },
+    "scratch.errorTitle" : {
+      "comment" : "Scratch failure alert title.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zotretie sa nepodarilo"
+          }
+        }
+      }
+    },
+    "scratch.headline" : {
+      "comment" : "Scratch screen heading.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odhaľte svoj kód"
+          }
+        }
+      }
+    },
+    "scratch.progress" : {
+      "comment" : "Shown during the reveal operation.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odhaľujeme kód…"
+          }
+        }
+      }
+    },
+    "scratch.revealed" : {
+      "comment" : "Disabled button label after revealing a code.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kód je odhalený"
+          }
+        }
+      }
+    },
+    "scratch.success" : {
+      "comment" : "Next step after reveal.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kód je pripravený. Kartu môžete aktivovať z hlavnej obrazovky."
+          }
+        }
+      }
+    },
+    "scratch.title" : {
+      "comment" : "Scratch screen navigation title.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zotretie karty"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
